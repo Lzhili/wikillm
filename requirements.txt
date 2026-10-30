@@ -1,0 +1,11 @@
+# 核心依赖（必须）
+torch>=2.6
+transformers>=4.44
+datasets>=2.20
+accelerate>=0.30
+
+# 可选：国内下载 Qwen tokenizer/config 更稳（不装会自动走直连镜像）
+# modelscope>=1.15
+
+# 可选：--swanlab 在线记录训练曲线时用
+# swanlab>=0.5
