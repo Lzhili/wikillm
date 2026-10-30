@@ -5,12 +5,12 @@ __pycache__/
 *.py[cod]
 *.egg-info/
 
-# 数据集（2GB，绝不入库）
+# 数据集
+WIKI_CN/
 data/*
 !data/.gitkeep
 
 # 训练产物与缓存
-WikiLLM/
 smoke_out/
 Qwen2-0.5B/
 .cache/
@@ -19,3 +19,8 @@ Qwen2-0.5B/
 
 # 系统文件
 .DS_Store
+
+tmp/
+output
+checkpoints/
+.ipynb_checkpoints
