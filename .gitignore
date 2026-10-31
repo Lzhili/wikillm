@@ -24,3 +24,5 @@ tmp/
 output
 checkpoints/
 .ipynb_checkpoints
+
+WikiLLM/
